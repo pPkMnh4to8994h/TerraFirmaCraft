@@ -1,8 +1,11 @@
+########################
+# Translations by Dusk #
+########################
 # Command
 
 # Gui
 
-## Tooltips
+## Tooltips (todo)
 tfc.tooltip.toolclass=§fКласс инструмента:§7 %s
 tfc.tooltip.toolclasses=§fКлассы инструмента:
 tfc.tooltip.oredictionaryentry=§fOre Dictionary name:§7 %s
@@ -15,7 +18,7 @@ tfc.tooltip.liquid=Жидкость
 ## Keybindings
 tfc.key.craft=Интерфейс крафта
 
-## Gui.World
+## Gui.World (todo)
 createWorld.customize.custom.spawnfuzz=Spawn Fuzzing Radius
 createWorld.customize.custom.flatbedrock=Flat Bedrock
 createWorld.customize.custom.ravineRarity=Ravine Rarity
@@ -50,7 +53,7 @@ config.tfc.client.toolip=Настройки для клиентской стор
 config.tfc.client.makeWorldTypeClassicDefault=Стандартный генератор миров TFC
 config.tfc.client.makeWorldTypeClassicDefault.tooltip=Работает только в одиночной игре
 
-# Misc
+# Misc (возможны другие варианты)
 itemGroup.tfc.misc=TFC Другое
 itemGroup.tfc.rock.blocks=TFC Блоки почв и пород
 itemGroup.tfc.rock.items=TFC Камни
@@ -101,7 +104,7 @@ tfc.enum.tier.tier_iii=Сыродутный горн
 tfc.enum.tier.tier_iv=Доменная печь
 tfc.enum.tier.tier_v=Тигель
 
-## Size
+## Размеры
 tfc.enum.size.tiny=Крохотный
 tfc.enum.size.very_small=Очень маленький
 tfc.enum.size.small=Маленький
@@ -110,12 +113,12 @@ tfc.enum.size.large=Большой
 tfc.enum.size.very_large=Очень большой
 tfc.enum.size.huge=Огромный
 
-## Weight
+## Вес
 tfc.enum.weight.light=Легкий
 tfc.enum.weight.medium=Средний
 tfc.enum.weight.heavy=Тяжелый
 
-## Heat
+## Нагрев
 tfc.enum.heat.warming=Теплый
 tfc.enum.heat.hot=Горячий
 tfc.enum.heat.very_hot=Очень горячий
@@ -128,24 +131,24 @@ tfc.enum.heat.yellow_white=Жёлто-белый
 tfc.enum.heat.white=Белый
 tfc.enum.heat.brilliant_white=Бриллиантово-белый
 
-# Items
+# Предметы
 item.tfc.wand.name=Отладочный посох
 item.tfc.firestarter.name=Огниво
 item.tfc.hay.name=Сено
 
-# Fluids
+# Жидкости
 fluid.salt_water=Солёная вода
 fluid.fresh_water=Пресная вода
 fluid.hot_water=Горячая вода
 
-# Blocks
+# Блоки
 tile.tfc.debug.name=Отладочный блок
 tile.tfc.peat.name=Торф
-tile.tfc.peat.grass.name=Торфяная трава
+tile.tfc.peat.grass.name=Трава на торфе
 tile.tfc.thatch.name=Солома
 tile.tfc.firepit.name=Костер
 
-## Stone types & variaties, Wood, Stairs, Slabs, ....
+## Породы камня и их вариации, Дерево, Ступеньки, Плиты, .... (предварительный перевод, нужны другие варианты)
 tile.tfc.raw.granite.name=Гранит
 tile.tfc.raw.diorite.name=Диорит
 tile.tfc.raw.gabbro.name=Габбро
@@ -230,7 +233,7 @@ tile.tfc.bricks.phyllite.name=Кирпичи из филлита
 tile.tfc.bricks.schist.name=Кирпичи из кристаллического сланца
 tile.tfc.bricks.gneiss.name=Кирпичи из гнейса
 tile.tfc.bricks.marble.name=Кирпичи из мрамора
-tile.tfc.sand.granite.name=Гранитовый песок
+tile.tfc.sand.granite.name=Гранитный песок
 tile.tfc.sand.diorite.name=Диоритовый песок
 tile.tfc.sand.gabbro.name=Габбровый песок
 tile.tfc.sand.shale.name=Глинисто-сланцевый песок
@@ -248,51 +251,51 @@ tile.tfc.sand.dacite.name=Дацитовый песок
 tile.tfc.sand.quartzite.name=Кварцитовый песок
 tile.tfc.sand.slate.name=Аспидно-сланцевый песок
 tile.tfc.sand.phyllite.name=Филлитовый песок
-tile.tfc.sand.schist.name=Кристаллическо-сланцевый песок
+tile.tfc.sand.schist.name=Сланцево-кристаллический песок
 tile.tfc.sand.gneiss.name=Гнейсовый песок
-tile.tfc.sand.marble.name=Мраморный печок
-tile.tfc.gravel.granite.name=Granite Gravel
-tile.tfc.gravel.diorite.name=Diorite Gravel
-tile.tfc.gravel.gabbro.name=Gabbro Gravel
-tile.tfc.gravel.shale.name=Shale Gravel
-tile.tfc.gravel.claystone.name=Claystone Gravel
-tile.tfc.gravel.rocksalt.name=Rocksalt Gravel
-tile.tfc.gravel.limestone.name=Limestone Gravel
-tile.tfc.gravel.conglomerate.name=Conglomerate Gravel
-tile.tfc.gravel.dolomite.name=Dolomite Gravel
-tile.tfc.gravel.chert.name=Chert Gravel
-tile.tfc.gravel.chalk.name=Chalk Gravel
-tile.tfc.gravel.rhyolite.name=Rhyolite Gravel
-tile.tfc.gravel.basalt.name=Basalt Gravel
-tile.tfc.gravel.andesite.name=Andesite Gravel
-tile.tfc.gravel.dacite.name=Dacite Gravel
-tile.tfc.gravel.quartzite.name=Quartzite Gravel
-tile.tfc.gravel.slate.name=Slate Gravel
-tile.tfc.gravel.phyllite.name=Phyllite Gravel
-tile.tfc.gravel.schist.name=Schist Gravel
-tile.tfc.gravel.gneiss.name=Gneiss Gravel
-tile.tfc.gravel.marble.name=Marble Gravel
-tile.tfc.dirt.granite.name=Granite Dirt
-tile.tfc.dirt.diorite.name=Diorite Dirt
-tile.tfc.dirt.gabbro.name=Gabbro Dirt
-tile.tfc.dirt.shale.name=Shale Dirt
-tile.tfc.dirt.claystone.name=Claystone Dirt
-tile.tfc.dirt.rocksalt.name=Rocksalt Dirt
-tile.tfc.dirt.limestone.name=Limestone Dirt
-tile.tfc.dirt.conglomerate.name=Conglomerate Dirt
-tile.tfc.dirt.dolomite.name=Dolomite Dirt
-tile.tfc.dirt.chert.name=Chert Dirt
-tile.tfc.dirt.chalk.name=Chalk Dirt
-tile.tfc.dirt.rhyolite.name=Rhyolite Dirt
-tile.tfc.dirt.basalt.name=Basalt Dirt
-tile.tfc.dirt.andesite.name=Andesite Dirt
-tile.tfc.dirt.dacite.name=Dacite Dirt
-tile.tfc.dirt.quartzite.name=Quartzite Dirt
-tile.tfc.dirt.slate.name=Slate Dirt
-tile.tfc.dirt.phyllite.name=Phyllite Dirt
-tile.tfc.dirt.schist.name=Schist Dirt
-tile.tfc.dirt.gneiss.name=Gneiss Dirt
-tile.tfc.dirt.marble.name=Marble Dirt
+tile.tfc.sand.marble.name=Мраморный пеcок
+tile.tfc.gravel.granite.name=Гранитный гравий
+tile.tfc.gravel.diorite.name=Диоритовый гравий
+tile.tfc.gravel.gabbro.name=Габбровый гравий
+tile.tfc.gravel.shale.name=Глинисто-сланцевый гравий
+tile.tfc.gravel.claystone.name=Аргиллитовый гравий
+tile.tfc.gravel.rocksalt.name=Каменно-солевой гравий
+tile.tfc.gravel.limestone.name=Известняковый гравий
+tile.tfc.gravel.conglomerate.name=Конгломератный гравий
+tile.tfc.gravel.dolomite.name=Доломитовый песок
+tile.tfc.gravel.chert.name=Кремнисто-сланцевый песок
+tile.tfc.gravel.chalk.name=Меловой песок
+tile.tfc.gravel.rhyolite.name=Риолитовый песок
+tile.tfc.gravel.basalt.name=Базальтовый песок
+tile.tfc.gravel.andesite.name=Андезитовый песок
+tile.tfc.gravel.dacite.name=Дацитовый песок
+tile.tfc.gravel.quartzite.name=Кварцитовый песок
+tile.tfc.gravel.slate.name=Аспидно-сланцевый песок
+tile.tfc.gravel.phyllite.name=Филлитовый песок
+tile.tfc.gravel.schist.name=Сланцево-кристаллический песок
+tile.tfc.gravel.gneiss.name=Гнейсовый песок
+tile.tfc.gravel.marble.name=Мраморный песок
+tile.tfc.dirt.granite.name=Гранитная земля
+tile.tfc.dirt.diorite.name=Диоритовая земля
+tile.tfc.dirt.gabbro.name=Габбровая земля
+tile.tfc.dirt.shale.name=Глинисто-сланцевая земля
+tile.tfc.dirt.claystone.name=Аргиллитовая земля
+tile.tfc.dirt.rocksalt.name=Каменно-солевая земля
+tile.tfc.dirt.limestone.name=Известняковая земля
+tile.tfc.dirt.conglomerate.name=Конгломератная земля
+tile.tfc.dirt.dolomite.name=Доломитовая земля
+tile.tfc.dirt.chert.name=Кремнисто-сланцевая земля
+tile.tfc.dirt.chalk.name=Меловая земля
+tile.tfc.dirt.rhyolite.name=Риолитовая земля
+tile.tfc.dirt.basalt.name=Базальтовая земля
+tile.tfc.dirt.andesite.name=Андезитовая земля
+tile.tfc.dirt.dacite.name=Дацитовая земля
+tile.tfc.dirt.quartzite.name=Кварцитовая земля
+tile.tfc.dirt.slate.name=Аспидно-сланцевая земля
+tile.tfc.dirt.phyllite.name=Филлитовая земля
+tile.tfc.dirt.schist.name=Сланцево-кристаллическая земля
+tile.tfc.dirt.gneiss.name=Гнейсовая земля
+tile.tfc.dirt.marble.name=Мраморная земля
 tile.tfc.grass.granite.name=Granite Grass
 tile.tfc.grass.diorite.name=Diorite Grass
 tile.tfc.grass.gabbro.name=Gabbro Grass
@@ -378,27 +381,27 @@ tile.tfc.dry_grass.schist.name=Dry Schist Grass
 tile.tfc.dry_grass.gneiss.name=Dry Gneiss Grass
 tile.tfc.dry_grass.marble.name=Dry Marble Grass
 
-tile.tfc.path.granite.name=Granite Path
-tile.tfc.path.diorite.name=Diorite Path
-tile.tfc.path.gabbro.name=Gabbro Path
-tile.tfc.path.shale.name=Shale Path
-tile.tfc.path.claystone.name=Claystone Path
-tile.tfc.path.rocksalt.name=Rocksalt Path
-tile.tfc.path.limestone.name=Limestone Path
-tile.tfc.path.conglomerate.name=Conglomerate Path
-tile.tfc.path.dolomite.name=Dolomite Path
-tile.tfc.path.chert.name=Chert Path
-tile.tfc.path.chalk.name=Chalk Path
-tile.tfc.path.rhyolite.name=Rhyolite Path
-tile.tfc.path.basalt.name=Basalt Path
-tile.tfc.path.andesite.name=Andesite Path
-tile.tfc.path.dacite.name=Dacite Path
-tile.tfc.path.quartzite.name=Quartzite Path
-tile.tfc.path.slate.name=Slate Path
-tile.tfc.path.phyllite.name=Phyllite Path
-tile.tfc.path.schist.name=Schist Path
-tile.tfc.path.gneiss.name=Gneiss Path
-tile.tfc.path.marble.name=Marble Path
+tile.tfc.path.granite.name=Дорожка из гранита
+tile.tfc.path.diorite.name=Дорожка из диорита
+tile.tfc.path.gabbro.name=Дорожка из габбро
+tile.tfc.path.shale.name=Дорожка из глинистого сланца
+tile.tfc.path.claystone.name=Дорожка из аргиллита
+tile.tfc.path.rocksalt.name=Дорожка из каменной соли
+tile.tfc.path.limestone.name=Дорожка из известняка
+tile.tfc.path.conglomerate.name=Дорожка из конгломерата
+tile.tfc.path.dolomite.name=Дорожка из доломита
+tile.tfc.path.chert.name=Дорожка из кремнистого сланца
+tile.tfc.path.chalk.name=Дорожка из мела
+tile.tfc.path.rhyolite.name=Дорожка из риолита
+tile.tfc.path.basalt.name=Дорожка из базальта
+tile.tfc.path.andesite.name=Дорожка из андезита
+tile.tfc.path.dacite.name=Дорожка из дацита
+tile.tfc.path.quartzite.name=Дорожка из кварцита
+tile.tfc.path.slate.name=Дорожка из аспидного сланца
+tile.tfc.path.phyllite.name=Дорожка из филлита
+tile.tfc.path.schist.name=Дорожка из кристаллического сланца
+tile.tfc.path.gneiss.name=Дорожка из гнейса
+tile.tfc.path.marble.name=Дорожка из мрамора
 
 tile.tfc.farmland.granite.name=Granite Farmland
 tile.tfc.farmland.diorite.name=Diorite Farmland
@@ -422,69 +425,69 @@ tile.tfc.farmland.schist.name=Schist Farmland
 tile.tfc.farmland.gneiss.name=Gneiss Farmland
 tile.tfc.farmland.marble.name=Marble Farmland
 
-tile.tfc.stairs.smooth.granite.name=Smooth Granite Stairs
-tile.tfc.stairs.smooth.diorite.name=Smooth Diorite Stairs
-tile.tfc.stairs.smooth.gabbro.name=Smooth Gabbro Stairs
-tile.tfc.stairs.smooth.shale.name=Smooth Shale Stairs
-tile.tfc.stairs.smooth.claystone.name=Smooth Claystone Stairs
-tile.tfc.stairs.smooth.rocksalt.name=Smooth Rocksalt Stairs
-tile.tfc.stairs.smooth.limestone.name=Smooth Limestone Stairs
-tile.tfc.stairs.smooth.conglomerate.name=Smooth Conglomerate Stairs
-tile.tfc.stairs.smooth.dolomite.name=Smooth Dolomite Stairs
-tile.tfc.stairs.smooth.chert.name=Smooth Chert Stairs
-tile.tfc.stairs.smooth.chalk.name=Smooth Chalk Stairs
-tile.tfc.stairs.smooth.rhyolite.name=Smooth Rhyolite Stairs
-tile.tfc.stairs.smooth.basalt.name=Smooth Basalt Stairs
-tile.tfc.stairs.smooth.andesite.name=Smooth Andesite Stairs
-tile.tfc.stairs.smooth.dacite.name=Smooth Dacite Stairs
-tile.tfc.stairs.smooth.quartzite.name=Smooth Quartzite Stairs
-tile.tfc.stairs.smooth.slate.name=Smooth Slate Stairs
-tile.tfc.stairs.smooth.phyllite.name=Smooth Phyllite Stairs
-tile.tfc.stairs.smooth.schist.name=Smooth Schist Stairs
-tile.tfc.stairs.smooth.gneiss.name=Smooth Gneiss Stairs
-tile.tfc.stairs.smooth.marble.name=Smooth Marble Stairs
-tile.tfc.stairs.cobble.granite.name=Granite Cobble Stairs
-tile.tfc.stairs.cobble.diorite.name=Diorite Cobble Stairs
-tile.tfc.stairs.cobble.gabbro.name=Gabbro Cobble Stairs
-tile.tfc.stairs.cobble.shale.name=Shale Cobble Stairs
-tile.tfc.stairs.cobble.claystone.name=Claystone Cobble Stairs
-tile.tfc.stairs.cobble.rocksalt.name=Rocksalt Cobble Stairs
-tile.tfc.stairs.cobble.limestone.name=Limestone Cobble Stairs
-tile.tfc.stairs.cobble.conglomerate.name=Conglomerate Cobble Stairs
-tile.tfc.stairs.cobble.dolomite.name=Dolomite Cobble Stairs
-tile.tfc.stairs.cobble.chert.name=Chert Cobble Stairs
-tile.tfc.stairs.cobble.chalk.name=Chalk Cobble Stairs
-tile.tfc.stairs.cobble.rhyolite.name=Rhyolite Cobble Stairs
-tile.tfc.stairs.cobble.basalt.name=Basalt Cobble Stairs
-tile.tfc.stairs.cobble.andesite.name=Andesite Cobble Stairs
-tile.tfc.stairs.cobble.dacite.name=Dacite Cobble Stairs
-tile.tfc.stairs.cobble.quartzite.name=Quartzite Cobble Stairs
-tile.tfc.stairs.cobble.slate.name=Slate Cobble Stairs
-tile.tfc.stairs.cobble.phyllite.name=Phyllite Cobble Stairs
-tile.tfc.stairs.cobble.schist.name=Schist Cobble Stairs
-tile.tfc.stairs.cobble.gneiss.name=Gneiss Cobble Stairs
-tile.tfc.stairs.cobble.marble.name=Marble Cobble Stairs
-tile.tfc.stairs.bricks.granite.name=Granite Bricks Stairs
-tile.tfc.stairs.bricks.diorite.name=Diorite Bricks Stairs
-tile.tfc.stairs.bricks.gabbro.name=Gabbro Bricks Stairs
-tile.tfc.stairs.bricks.shale.name=Shale Bricks Stairs
-tile.tfc.stairs.bricks.claystone.name=Claystone Bricks Stairs
-tile.tfc.stairs.bricks.rocksalt.name=Rocksalt Bricks Stairs
-tile.tfc.stairs.bricks.limestone.name=Limestone Bricks Stairs
-tile.tfc.stairs.bricks.conglomerate.name=Conglomerate Bricks Stairs
-tile.tfc.stairs.bricks.dolomite.name=Dolomite Bricks Stairs
-tile.tfc.stairs.bricks.chert.name=Chert Bricks Stairs
-tile.tfc.stairs.bricks.chalk.name=Chalk Bricks Stairs
-tile.tfc.stairs.bricks.rhyolite.name=Rhyolite Bricks Stairs
-tile.tfc.stairs.bricks.basalt.name=Basalt Bricks Stairs
-tile.tfc.stairs.bricks.andesite.name=Andesite Bricks Stairs
-tile.tfc.stairs.bricks.dacite.name=Dacite Bricks Stairs
-tile.tfc.stairs.bricks.quartzite.name=Quartzite Bricks Stairs
-tile.tfc.stairs.bricks.slate.name=Slate Bricks Stairs
-tile.tfc.stairs.bricks.phyllite.name=Phyllite Bricks Stairs
-tile.tfc.stairs.bricks.schist.name=Schist Bricks Stairs
-tile.tfc.stairs.bricks.gneiss.name=Gneiss Bricks Stairs
-tile.tfc.stairs.bricks.marble.name=Marble Bricks Stairs
+tile.tfc.stairs.smooth.granite.name=Ступени из обтесанного гранита
+tile.tfc.stairs.smooth.diorite.name=Ступени из обтесанного диорита
+tile.tfc.stairs.smooth.gabbro.name=Ступени из обтесанного габбро
+tile.tfc.stairs.smooth.shale.name=Ступени из обтесанного глинистого сланца
+tile.tfc.stairs.smooth.claystone.name=Ступени из обтесанного аргиллита
+tile.tfc.stairs.smooth.rocksalt.name=Ступени из обтесанного галита
+tile.tfc.stairs.smooth.limestone.name=Ступени из обтесанного известняка
+tile.tfc.stairs.smooth.conglomerate.name=Ступени из обтесанного конгломерата
+tile.tfc.stairs.smooth.dolomite.name=Ступени из обтесанного доломита
+tile.tfc.stairs.smooth.chert.name=Ступени из обтесанного кремнистого сланца
+tile.tfc.stairs.smooth.chalk.name=Ступени из обтесанного мела
+tile.tfc.stairs.smooth.rhyolite.name=Ступени из обтесанного риолита
+tile.tfc.stairs.smooth.basalt.name=Ступени из обтесанного базальта
+tile.tfc.stairs.smooth.andesite.name=Ступени из обтесанного андезита
+tile.tfc.stairs.smooth.dacite.name=Ступени из обтесанного дацита
+tile.tfc.stairs.smooth.quartzite.name=Ступени из обтесанного кварцита
+tile.tfc.stairs.smooth.slate.name=Ступени из обтесанного аспидного сланца
+tile.tfc.stairs.smooth.phyllite.name=Ступени из обтесанного филлита
+tile.tfc.stairs.smooth.schist.name=Ступени из обтесанного кристаллического сланца
+tile.tfc.stairs.smooth.gneiss.name=Ступени из обтесанного гнейса
+tile.tfc.stairs.smooth.marble.name=Ступени из обтесанного мрамора
+tile.tfc.stairs.cobble.granite.name=Ступени из гранитного булыжника
+tile.tfc.stairs.cobble.diorite.name=Ступени из диоритового булыжника
+tile.tfc.stairs.cobble.gabbro.name=Ступени из габбрового булыжника
+tile.tfc.stairs.cobble.shale.name=Ступени из глинисто-сланцевого булыжника
+tile.tfc.stairs.cobble.claystone.name=Ступени из аргиллитового булыжника
+tile.tfc.stairs.cobble.rocksalt.name=Ступени из галитового булыжника
+tile.tfc.stairs.cobble.limestone.name=Ступени из известнякового булыжника
+tile.tfc.stairs.cobble.conglomerate.name=Ступени из конгломератного булыжника
+tile.tfc.stairs.cobble.dolomite.name=Ступени из доломитного булыжника
+tile.tfc.stairs.cobble.chert.name=Ступени из кремнисто-сланцевого булыжника
+tile.tfc.stairs.cobble.chalk.name=Ступени из мелового булыжника
+tile.tfc.stairs.cobble.rhyolite.name=Ступени из риолитового булыжника
+tile.tfc.stairs.cobble.basalt.name=Ступени из базальтового булыжника
+tile.tfc.stairs.cobble.andesite.name=Ступени из андезитового булыжника
+tile.tfc.stairs.cobble.dacite.name=Ступени из дацитового булыжника
+tile.tfc.stairs.cobble.quartzite.name=Ступени из кварцитового булыжника
+tile.tfc.stairs.cobble.slate.name=Ступени из аспидно-сланцевого булыжника
+tile.tfc.stairs.cobble.phyllite.name=Ступени из филлитового булыжника
+tile.tfc.stairs.cobble.schist.name=Ступени из сланцево-кристаллического булыжника
+tile.tfc.stairs.cobble.gneiss.name=Ступени из гнейсового булыжника
+tile.tfc.stairs.cobble.marble.name=Ступени из мраморного булыжника
+tile.tfc.stairs.bricks.granite.name=Ступени из гранитного кирпича
+tile.tfc.stairs.bricks.diorite.name=Ступени из диоритового кирпича
+tile.tfc.stairs.bricks.gabbro.name=Ступени из габбрового кирпича
+tile.tfc.stairs.bricks.shale.name=Ступени из глинисто-сланцевого кирпича
+tile.tfc.stairs.bricks.claystone.name=Ступени из аргиллитового кирпича
+tile.tfc.stairs.bricks.rocksalt.name=Ступени из галитового кирпича
+tile.tfc.stairs.bricks.limestone.name=Ступени из известкового кирпича
+tile.tfc.stairs.bricks.conglomerate.name=Ступени из конгломератного кирпича
+tile.tfc.stairs.bricks.dolomite.name=Ступени из доломитового кирпича
+tile.tfc.stairs.bricks.chert.name=Ступени из кремнисто-сланцевого кирпича
+tile.tfc.stairs.bricks.chalk.name=Ступени из мелового кирпича
+tile.tfc.stairs.bricks.rhyolite.name=Ступени из риолитового кирпича
+tile.tfc.stairs.bricks.basalt.name=Ступени из базальтового кирпича
+tile.tfc.stairs.bricks.andesite.name=Ступени из андезитового кирпича
+tile.tfc.stairs.bricks.dacite.name=Ступени из дацитового кирпича
+tile.tfc.stairs.bricks.quartzite.name=Ступени из кварцитового кирпича
+tile.tfc.stairs.bricks.slate.name=Ступени из аспидно-сланцевого кирпича
+tile.tfc.stairs.bricks.phyllite.name=Ступени из филлитового кирпича
+tile.tfc.stairs.bricks.schist.name=Ступени из сланцево-кристаллического кирпича
+tile.tfc.stairs.bricks.gneiss.name=Ступени из гнейсового кирпича
+tile.tfc.stairs.bricks.marble.name=Ступени из мраморного кирпича
 
 tile.tfc.slab.half.smooth.granite.name=Smooth Granite Slab
 tile.tfc.slab.half.smooth.diorite.name=Smooth Diorite Slab
